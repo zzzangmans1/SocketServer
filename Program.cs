@@ -14,7 +14,7 @@ namespace Example
 
             //string filepath = "C:\\Users\\lenovo\\Desktop\\";
             string filepath = Directory.GetCurrentDirectory();
-            filepath += "log\\";
+            filepath += "\\log\\";
             
             StreamWriter sw;
             // 현재 시간 받아오기
