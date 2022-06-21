@@ -12,7 +12,10 @@ namespace Example
         static void Main(string[] args)
         {
 
-            string filepath = "C:\\Users\\lenovo\\Desktop\\";
+            //string filepath = "C:\\Users\\lenovo\\Desktop\\";
+            string filepath = Directory.GetCurrentDirectory();
+            filepath += "log\\";
+            
             StreamWriter sw;
             // 현재 시간 받아오기
             string d = DateTime.Now.ToString("yyyy-MM-dd/hh_mm_ss");
